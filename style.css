@@ -1,40 +1,56 @@
 /* CSS files add styling rules to your content */
 
+ <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 body {
   font-family: helvetica, arial, serif;
-  margin: 2em;
+  margin: 0;
 }
 
-.oprah {
-  font-family: USnell Roundhand, cursive;
-  color: #2f017d;
-  font-size: 80px;
+
+
+.icon-bar {
+  width: 90px;
+  background-color: #fffff;
 }
 
-h3 {
-  color: #45a3d9; 
-  font-family: Andale Mono, monospace;
-  
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
 }
 
-.one {
-  width: 300px;
+.icon-bar {
+  background-color: #8c8eba;
 }
 
-.two{
-  width: 300px;
-  float:right;
+.active {
+  background-color: #8c8eba;
 }
 
-.list {
-  font-family:"Courier New", Courier, monospace;
+.image {
+  width:45%;
+  float: right;
 }
 
-.quote {
-  font-family: serif;
+h1 {
+  font-size: 60px;
+}
+ 
+.intro {
+  position: absolute;
+  left: 130px; 
+  font-size: 20px;
 }
 
-h2 {
-  color: #45a3d9; 
-  font-family: Andale Mono, monospace;
+.info {
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top: 80%;
+  font-size: 30px;
 }
