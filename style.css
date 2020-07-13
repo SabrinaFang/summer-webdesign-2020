@@ -1,56 +1,114 @@
 /* CSS files add styling rules to your content */
 
- <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 body {
-  font-family: helvetica, arial, serif;
-  margin: 0;
-}
-
-
-
-.icon-bar {
-  width: 90px;
-  background-color: #fffff;
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar {
-  background-color: #8c8eba;
-}
-
-.active {
-  background-color: #8c8eba;
-}
-
-.image {
-  width:45%;
-  float: right;
+  font-family: helvetica, arial, sans-serif;
+  margin:0;
 }
 
 h1 {
-  font-size: 60px;
-}
- 
-.intro {
-  position: absolute;
-  left: 130px; 
-  font-size: 20px;
+  font-style: italic;
+  color: #373fff;
 }
 
-.info {
-  font-weight: bold;
-  position: absolute;
-  left: 130px;
-  top: 80%;
+
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 500px;
+  height: 500px; 
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8); 
   font-size: 30px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.grid-item img {
+  width: 150px;
+  height: 150px; 
+}
+
+.profile-picture img {"https://cdn.glitch.com/c675f1fe-f2b4-4a4e-85bf-29605a4ef39f%2FPPic.jpg?v=1592594512637"/>
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+#username {
+  float: right;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.bio {
+  font-family: Jazz LET, fantasy;
+}
+
+#followers {
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.highlights {
+ display: inline-flex;
+ flex-wrap: wrap; 
+ padding: 5px;
+ margin: 5px;
+ grid-template-rows: auto;
+}
+
+.highlight-item img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding:1px;
+  border:1px solid #d7d9db;
+  background-color:#ffffff;
+}
+
+.highlight-item {
+   margin: 10px;
+}
+
+.icon-bar {
+  display:inline-block;
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.icon-bar a {
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+  
+
+.nav-buttons{
+  display:inline-block;
+}
+.instagram {
+  display:inline-block;
+  width: 150px;
+  font-size:30px;
+  font-family:serif, monospace, handlee;
 }
