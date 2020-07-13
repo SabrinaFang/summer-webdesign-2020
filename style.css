@@ -1,0 +1,47 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://cdn.glitch.com/4afcddf0-4947-40db-b77d-a4f0cd212306%2Fbackground.jpg?v=1594663090172);
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+
+  .listing > li {
+        line-height: 20px;
+      }
+ 
+  .heading {
+        color: #15506e;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:;
+        list-style-type: none;
+      }
+   
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.div {
+  height: 100px;
+}
+
+      .columns > * {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+        margin-right: 50px;
+        align: center;
+      }
