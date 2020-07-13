@@ -1,114 +1,43 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin:0;
-}
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
-
-
-.grid-container {
-  display:grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  background-color: #ffffff;
-  padding: 10px;
-  width: 500px;
-  height: 500px; 
-  grid-gap: 10px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8); 
-  font-size: 30px;
-  text-align: center;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 50px;
-}
-
-.grid-item img {
-  width: 150px;
-  height: 150px; 
-}
-
-.profile-picture img {"https://cdn.glitch.com/c675f1fe-f2b4-4a4e-85bf-29605a4ef39f%2FPPic.jpg?v=1592594512637"/>
-  height: 100px;
-  width: 100px;
-  margin: 20px;
-  border-radius: 50%;
-}
-
-#username {
-  float: right;
-  font-family: Palatino, URW Palladio L, serif;
-}
-
-.bio {
-  font-family: Jazz LET, fantasy;
-}
-
-#followers {
-  font-family: Trebuchet MS, sans-serif;
-}
-
-.highlights {
- display: inline-flex;
- flex-wrap: wrap; 
- padding: 5px;
- margin: 5px;
- grid-template-rows: auto;
-}
-
-.highlight-item img {
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  padding:1px;
-  border:1px solid #d7d9db;
-  background-color:#ffffff;
-}
-
-.highlight-item {
-   margin: 10px;
-}
-
-.icon-bar {
-  display:inline-block;
+#summers {
+  background-color: #ed8080;
+  min-height: 100px;
   width: 100%;
-  background-color: #ffffff;
-  overflow: auto;
+  margin-bottom: 10px;
+  font-family: arial;
 }
-
-.icon-bar a {
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: black;
-  font-size: 36px;
+#fog {
+  background-color: #f0a671;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-
-.icon-bar a:hover {
-  background-color: #000;
+#hills {
+  background-color: #f5dc7a;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-
-.active {
-  background-color: #4CAF50;
+#architecture {
+  background-color: #9deda7;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-  
-
-.nav-buttons{
-  display:inline-block;
+#food {
+  background-color: #93d7ed;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
 }
-.instagram {
-  display:inline-block;
-  width: 150px;
-  font-size:30px;
-  font-family:serif, monospace, handlee;
+#landmarks {
+  background-color: #c298eb;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#tech {
+  background-color: #93d7ed;
+  min-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
 }
