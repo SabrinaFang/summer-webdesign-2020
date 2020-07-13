@@ -1,47 +1,40 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: helvetica, arial, serif;
   margin: 2em;
-  background-image: url(https://cdn.glitch.com/4afcddf0-4947-40db-b77d-a4f0cd212306%2Fbackground.jpg?v=1594663090172);
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.oprah {
+  font-family: USnell Roundhand, cursive;
+  color: #2f017d;
+  font-size: 80px;
 }
 
-img {
-  width: 100%;
-  height: 200px;
+h3 {
+  color: #45a3d9; 
+  font-family: Andale Mono, monospace;
+  
 }
 
-  .listing > li {
-        line-height: 20px;
-      }
- 
-  .heading {
-        color: #15506e;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size:;
-        list-style-type: none;
-      }
-   
-.grid {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
+.one {
+  width: 300px;
 }
 
-.div {
-  height: 100px;
+.two{
+  width: 300px;
+  float:right;
 }
 
-      .columns > * {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        padding: 0;
-        margin-right: 50px;
-        align: center;
-      }
+.list {
+  font-family:"Courier New", Courier, monospace;
+}
+
+.quote {
+  font-family: serif;
+}
+
+h2 {
+  color: #45a3d9; 
+  font-family: Andale Mono, monospace;
+}
