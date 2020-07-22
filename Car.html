@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Future-tech</title>
+    <link rel="stylesheet" href="Car.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <body style="background-color:#0d0d0d;"></body>
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 my-5">
+          <a href="index.html">
+            <h1>
+              <a href="index.html">Hi-tech</a>
+            </h1>
+          </a>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-2 my-5 hello">
+          <a href="Car.html">Self Driving Cars</a>
+        </div>
+        <div class="col-2 my-5 hello">
+          <a href="AI.html">Artificial Intelligence</a>
+        </div>
+        <div class="col-2 my-5 hello">
+          <a href="train.html">Maglev Bullet Train</a>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          Self Driving Cars
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4 mx-4">
+          <button class="accordion">What is it</button>
+          <div class="panel">
+            <p>
+              A Self Driving Car allows a car to drive without human input. The
+              idea behind the self driving car is really simple: Outfit a car
+              with cameras that can track all the objects around it and have the
+              car react if it’s about to steer into one.
+            </p>
+          </div>
+
+          <button class="accordion">When do we expect to see it</button>
+          <div class="panel">
+            <p>
+              Since the 2010s, self driving cars have been envisioned by many
+              companies. However, the task of creating a self driving car has
+              turned out a lot harder that it was said to be. The self driving
+              car's technology relies heavily on artificial intelligence that
+              allows the car to sense things around it. The AI development for
+              self driving cars has not been very succesful.
+            </p>
+          </div>
+          <button class="accordion">Companies</button>
+          <div class="panel">
+            <p>
+              Companies in the self driving car industry include Mercedes-Benz,
+              General Motors, Continental Automotive Systems, Autoliv Inc.,
+              Bosch, Nissan, Toyota, Audi, Volvo, Vislab from University of
+              Parma, Oxford University and Google.
+            </p>
+          </div>
+          <button class="accordion">Benefits and Drawbacks</button>
+          <div class="panel">
+            <p>
+              Some people claim that self driving cars will be more
+              environmentally friendly. This is because they believe AI will
+              improved to learn to use fuel more efficiently. People claim that
+              humans brake harshly, accelerate hard, and idle the engine. AI
+              could fix this make driving better. There are also some drawbacks,
+              people have been questioning the safety of self driving cars and
+              people have been killed as well. Let's hope in the future, self
+              driving cars will become more safe.
+            </p>
+          </div>
+        </div>
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        </script>
+
+        <div class="col-5 mx-4 text-justify ">
+          <img
+            src="https://cdn.glitch.com/082baa6f-5670-4dda-b67b-aa647e2634b2%2Fa282ee22-48b9-4481-aa13-a84d4ec8f111.image.png?v=1595275926368"
+            width="300"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

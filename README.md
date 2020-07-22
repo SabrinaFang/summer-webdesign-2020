@@ -1,37 +1,37 @@
-Let's explore San Francisco
+Welcome to Glitch
 =================
 
-![](https://i.ytimg.com/vi/yyuTGgjAhOY/maxresdefault.jpg)
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-## Intro
-San Francisco is popular for many things, such as its cool summers, fog, steep rolling hills, eclectic mix of architecture, tech industry, and landmarks. We want you to learn more about San Francisco through this scavenger hunt! Read more about it below!
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
 
 
-## Task
-If you take a look in your index.html file you'll see that you've been given a page with 6 divs. Each one of these divs has an id corresponding to a different background color that represents the 6 categories San Francisco is famous for.
+Your Project
+------------
 
-Your first task is to go through each div and create an h2 element stating the name the 6 categories found in the HTML. The text should appear **inside** the colored box designated for that category.
+### ← README.md
 
-Next, go through the list of attractions below, find pictures of them online, and then place them in the correct div in your HTML.
+That's this file, where you can tell people what your cool website does and how you built it.
 
-**List**
-  1. Ocean Beach
-  2. San Francisco Recreation & Parks
-  3. Karl the Fog
-  4. Steepest Hill in San Francisco (Mount Davidson)
-  5. Victorian House
-  6. Fort Point
-  7. Golden Gate Bridge
-  8. Crissy Fields
-  9. Lands End
-  10. Sutro Tower
-  11. Oracle Park
-  12. Baker Beach
-  13. The Presidios
-  14. The Painted Ladies
-  15. Cable Cars
-  16. Dolores Park
-  17. Twin Peaks
-  18. Bernal Heights Park
-  19. Billy Goat Hill Swing
-  20. Your favorite restaurant :)
+### ← index.html
+
+Where you'll write the content of your website. 
+
+### ← style.css
+
+CSS files add styling rules to your content.
+
+### ← script.js
+
+If you're feeling fancy you can add interactivity to your site with JavaScript.
+
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
