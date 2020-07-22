@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color:black;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-futuristic-background_23-2148413498.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: lightblue;
+  
+}
+
+h1 {
+  font-style: bold;
+  font-size:60px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+.columns {
+  text-align: center;
+  background-color: rgba(255,255,255,0.75);
+}
+
+div{
+  color:black;
+  font-family: serif;
+}
+
+.container .container-fluid{
+  
+}
+img{
+  border:20px
+}
+
+button{
+ background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+button:hover{
+   background-color: #555555;
+  color: white;
+}
+
+@media all and (min-width:500px)
+

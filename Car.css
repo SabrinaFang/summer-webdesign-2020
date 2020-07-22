@@ -1,0 +1,40 @@
+h1{
+  float:center;
+}
+.col-2 {
+  font-size:20px;
+}
+a, a:hover, a:active, a:visited { 
+  color: white; 
+}
+
+{
+  background-color:black;}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.hello{text-align:right}
+p{
+  color:white;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: black;
+  overflow: hidden;
+}
+.col-12{
+  text-align:center;
+  color:white;
+  font-size:30px;
+}
