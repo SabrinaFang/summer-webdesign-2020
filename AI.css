@@ -44,7 +44,7 @@ p {
   color: white;
   font-size: 30px;
 }
-#img2 {
+#img2, #img4 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -54,4 +54,8 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Poppins", sans-serif;
+}
+
+.accordion:hover {
+  background-color: #ADD8E6;
 }
