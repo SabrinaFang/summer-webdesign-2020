@@ -5,6 +5,198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Future-tech</title>
+    <link rel="stylesheet" href="AI.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="grid"></div>
+    <body style="background-color:#0d0d0d;"></body>
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2 mt-5">
+          <a href="index.html">
+            <h1>
+              <a href="index.html">Hi-tech</a>
+            </h1>
+          </a>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-2 mt-5 mb-4 hello text-center">
+          <a href="Car.html">Self Driving Cars</a>
+        </div>
+        <div class="col-2 mt-5 mb-4 hello text-center">
+          <a href="AI.html">Artificial Intelligence</a>
+        </div>
+        <div class="col-2 mt-5 mb-4 hello text-center">
+          <a href="train.html">Maglev Bullet Train</a>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 text border-top">
+          <p>
+            <style font-size="20px"></style>
+          </p>
+          Artificial Intelligence
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5">
+          <button class="accordion">What is it?</button>
+          <div class="panel">
+            <p>
+              In the 1950s, the fathers of the field Minsky and McCarthy,
+              described artificial intelligence as any task performed by a
+              program or a machine that, if a human carried out the same
+              activity, we would say the human had to apply intelligence to
+              accomplish the task. That obviously is a fairly broad definition,
+              which is why you will sometimes see arguments over whether
+              something is truly AI or not. AI systems will typically
+              demonstrate at least some of the following behaviours associated
+              with human intelligence: planning, learning, reasoning, problem
+              solving, knowledge representation, perception, and, to a lesser
+              extent, social intelligence and creativity.
+            </p>
+          </div>
+
+          <button class="accordion">How does it work?</button>
+          <div class="panel">
+            <p>
+              AI works by combining large amounts of data with fast, iterative
+              processing and intelligent algorithms, allowing the software to
+              learn automatically from patterns or features in the data. AI is a
+              broad field of study that includes many theories, methods and
+              technologies, as well as the following major subfields:<br />
+            </p>
+
+            <ul style="color:white">
+              <li>Machine learning</li>
+              <li>Deep learning</li>
+              <li>Neural network</li>
+              <li>Cognitive computing</li>
+              <li>Computer vision</li>
+              <li>Natural language processing</li>
+            </ul>
+          </div>
+          <button class="accordion">What are it's challenges?</button>
+          <div class="panel">
+            <p>
+              The principle limitation of AI is that it learns from the data.
+              There is no other way in which knowledge can be incorporated. That
+              means any inaccuracies in the data will be reflected in the
+              results. And any additional layers of prediction or analysis have
+              to be added separately. Today’s AI systems are trained to do a
+              clearly defined task. The system that plays poker cannot play
+              solitaire or chess. The system that detects fraud cannot drive a
+              car or give you legal advice. In fact, an AI system that detects
+              health care fraud cannot accurately detect tax fraud or warranty
+              claims fraud. In other words, these systems are very, very
+              specialized. They are focused on a single task and are far from
+              behaving like humans.Likewise, self-learning systems are not
+              autonomous systems. The imagined AI technologies that you see in
+              movies and TV are still science fiction. But computers that can
+              probe complex data to learn and perfect specific tasks are
+              becoming quite common.
+            </p>
+          </div>
+          <button class="accordion">How will it evolve in the future?</button>
+          <div class="panel">
+            <p>
+              While these advances have been exciting for those of us in the
+              industry, there remains a disconnect between our enthusiasm and
+              the impact society at large is experiencing as a result of AI. In
+              the next few decades, the technology industry will continue to
+              make substantial advances in how AI can be applied, but the
+              greater impact will come not from future nascent applications but
+              by the widespread adoption of AI by other industries today we
+              interact with on a daily basis. No industry will be safe from this
+              change, but here are some of the industries that will change most
+              significantly with the adoption of AI.
+            </p>
+          </div>
+        </div>
+         <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+
+              var panels = document.getElementsByClassName("panel");
+              var j;
+              var total = 0;
+              for (j = 0; j < panels.length; j++) {
+                if (panels[j].style.display == "block") {
+                  total++;
+                }
+              }
+
+              var img2 = document.getElementById("img2");
+              if (total > 0) {
+                img2.style.display = "block";
+              } else {
+                img2.style.display = "none";
+              }
+              var img3 = document.getElementById("img3");
+              if (total > 2) {
+                img3.style.display = "block";
+              } else {
+                img3.style.display = "none";
+              }
+            });
+          }
+        </script>
+
+        <div class="col-6 text-justify">
+          <img
+            src="https://cdn.glitch.com/082baa6f-5670-4dda-b67b-aa647e2634b2%2Fhuman.jpg?v=1595275771984"
+            width="450"
+            height="275"
+          />
+          <img
+            style="display:none;"
+            id="img2"
+            src="https://cdn.glitch.com/082baa6f-5670-4dda-b67b-aa647e2634b2%2Fa.iworking.webp?v=1595615271772"
+            width="450"
+            height="275"
+          />
+          <img
+            style="display:none;"
+            id="img3"
+            src="https://cdn.glitch.com/082baa6f-5670-4dda-b67b-aa647e2634b2%2FA.Iscrreen.jpg?v=1595615273762"
+            width="450"
+            height="275"
+               />
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Future-tech</title>
     <link rel="stylesheet" href="Car.css" />
     <link
       rel="stylesheet"
@@ -95,3 +287,4 @@
     </div>
   </body>
 </html>
+!-->
