@@ -9,7 +9,7 @@ a:hover,
 a:active,
 a:visited {
   color: white;
-  
+  text-decoration: none;
 }
 
  {
@@ -57,5 +57,5 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .accordion:hover {
-  background-color:#ADD8E6
+  background-color: #ADD8E6;
 }

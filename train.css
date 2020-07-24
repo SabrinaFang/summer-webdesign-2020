@@ -1,17 +1,5 @@
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: black;
-  overflow: hidden;
-}
-
-.panel:hover {
-}
-
-h2 {
+h1 {
   float: center;
-  text-align: center;
-  color: white;
 }
 .col-2 {
   font-size: 20px;
@@ -26,7 +14,6 @@ a:visited {
  {
   background-color: black;
 }
-
 .accordion {
   background-color: #eee;
   color: #444;
@@ -42,20 +29,32 @@ a:visited {
 .hello {
   text-align: right;
 }
-
 p {
   color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: black;
+  overflow: hidden;
 }
 .col-12 {
   text-align: center;
   color: white;
   font-size: 30px;
 }
-
+#img2, #img4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .text {
   text-transform: uppercase;
   background: linear-gradient(to right, #30CFD0 0%, #ff00ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Poppins", sans-serif;
+}
+.accordion:hover {
+  background-color: #ADD8E6;
 }
